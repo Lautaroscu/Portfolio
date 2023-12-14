@@ -15,6 +15,6 @@ darkModeToggle.addEventListener("change", () => {
     localStorage.setItem("darkMode", "disabled");
   }
 });
-window.location.pathname == "/src/pages/portfolio/portfolio.html"
+window.location.pathname.includes("portfolio.html")
   ? (body.style.overflow = "auto")
   : (body.style.overflow = "hidden");

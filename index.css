@@ -46,6 +46,7 @@ header {
   background: #fff;
   position: fixed;
   top: 0;
+  right: 20px;
   z-index: 1;
   width: 100%;
 }
@@ -126,7 +127,6 @@ li a {
 .menu {
   display: none;
 }
-
 .mode i {
   font-size: 1.4rem;
   cursor: pointer;
