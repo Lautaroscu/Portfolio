@@ -31,8 +31,7 @@ body {
 }
 
 /* Genral */
-.container,
-header {
+.container {
   padding: 0 8.4rem;
 }
 
@@ -50,6 +49,7 @@ header {
   right: 20px;
   z-index: 1;
   width: 100%;
+  padding: 0 8.4rem;
 }
 
 .page-header {
